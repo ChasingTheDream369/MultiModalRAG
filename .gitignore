@@ -1,0 +1,14 @@
+.env
+.venv/
+
+# Data — stays local
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+**/__init__.py
