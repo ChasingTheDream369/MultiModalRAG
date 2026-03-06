@@ -350,39 +350,10 @@ The net effect is that every function signature is a self-documenting contract. 
 
 ## References
 
-**Retrieval & RAG**
-
-- Lewis, P. et al. (2020). *Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.* NeurIPS. https://arxiv.org/abs/2005.11401
-- Cormack, G. V., Clarke, C. L. A., & Buettcher, S. (2009). *Reciprocal Rank Fusion outperforms Condorcet and individual Rank Learning Methods.* SIGIR. https://dl.acm.org/doi/10.1145/1571941.1572114
-- Robertson, S. & Zaragoza, H. (2009). *The Probabilistic Relevance Framework: BM25 and Beyond.* Foundations and Trends in Information Retrieval. https://www.staff.city.ac.uk/~sbrp622/papers/foundations_bm25_review.pdf
-
-**Multimodal & Vision**
-
-- OpenAI (2024). *GPT-4 Technical Report.* https://arxiv.org/abs/2303.08774
-- Radford, A. et al. (2021). *Learning Transferable Visual Models From Natural Language Supervision (CLIP).* ICML. https://arxiv.org/abs/2103.00020
-
-**Chunking strategies**
-
-- Kamradt, G. (2023). *Semantic Chunking.* https://github.com/FullStackRetrieval-com/RetrievalTutorials
-- LlamaIndex. *Auto-Merging Retriever (Parent-Child).* https://docs.llamaindex.ai/en/stable/examples/retrievers/auto_merging_retriever
-
-**Vector search**
-
-- Johnson, J., Douze, M., & Jégou, H. (2019). *Billion-scale similarity search with GPUs (FAISS).* IEEE Transactions on Big Data. https://arxiv.org/abs/1702.08734
-
-**PDF parsing**
-
-- Unstructured.io. *Unstructured: Pre-processing library for LLM data pipelines.* https://github.com/Unstructured-IO/unstructured
-
-**Security**
-
-- OWASP. *LLM01: Prompt Injection.* OWASP Top 10 for LLM Applications. https://owasp.org/www-project-top-10-for-large-language-model-applications
-- Perez, F. & Ribeiro, I. (2022). *Ignore Previous Prompt: Attack Techniques For Language Models.* https://arxiv.org/abs/2211.09527
-
-**Data validation**
-
-- Pydantic. *Pydantic v2 Documentation.* https://docs.pydantic.dev
-
+- Liu, J. (2022). *LlamaIndex: A Data Framework for LLM Applications.* https://github.com/run-llama/llama_index
+- LlamaIndex. *QueryFusionRetriever & Hybrid Search.* https://docs.llamaindex.ai/en/stable/examples/retrievers/reciprocal_rerank_fusion
+- LlamaIndex. *VectorStoreIndex & FAISS Integration.* https://docs.llamaindex.ai/en/stable/examples/vector_stores/faiss_indexing
+- LlamaIndex. *UnstructuredReader.* https://docs.llamaindex.ai/en/stable/examples/data_connectors/UnstructuredReaderDemo
 ---
 
 ## Built with assistance from
