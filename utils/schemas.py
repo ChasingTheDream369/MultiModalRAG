@@ -38,7 +38,6 @@ class DocumentChunk(BaseModel):
 class RAGResponse(BaseModel):
     """Validated response from the full pipeline."""
     answer:                str
-    confidence:            float        = Field(ge=0.0, le=1.0)
     sources:               list[str]    = []
     has_tables:            bool         = False
     follow_up_suggestions: list[str]    = []

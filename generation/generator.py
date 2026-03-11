@@ -118,7 +118,6 @@ def parse_response(raw: str) -> RAGResponse:
 
     return RAGResponse(
         answer                = prose,
-        confidence            = float(meta.get("confidence", 0.0)),
         sources               = meta.get("sources", []),
         has_tables            = bool(meta.get("has_tables", False)),
         follow_up_suggestions = meta.get("follow_up_suggestions", []),

@@ -54,7 +54,6 @@ def cmd_query(args):
     sep = "─" * 60
     print(f"\n{sep}\nQ: {chk.text}\n{sep}\n")
     print(response.answer)
-    print(f"\nConfidence:  {response.confidence:.2f}")
     if response.sources:
         print(f"Sources:     {', '.join(response.sources)}")
 
